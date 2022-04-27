@@ -2,22 +2,24 @@
 
 **Author**: [r3w0p](https://github.com/r3w0p)  
 **Version**: 1.0  
-**License**: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)  
+**License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)  
 **Source**: [GitHub](https://github.com/r3w0p/software-quality-checklist)  
 
-The software quality checklist in this document is adapted from the checklist provided in Appendix A of the document _Guidelines for Software Quality v1.1_ ([van Gompel et al., 2016](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/softwareguidelines.pdf)), licensed under CC BY-SA 2.0 (see [here](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/LICENSE)).
+The software quality checklist in this document is adapted from the checklist provided in Appendix A of the document 
+_Guidelines for Software Quality v1.1_ ([van Gompel et al., 2016](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/softwareguidelines.pdf)), 
+licensed under "Creative Commons BY-SA" (see [here](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/LICENSE)).
 
 The following changes were made to their checklist:
 1. The term "Perfect" was changed to "Exc" (as in, _Excellent_) because it seemed like a more appropriate descriptor.
 2. A "Description" column was added so that one can, for example, provide extra information as to why one chose a rating for a given criterion.
 3. The "ID" values were changed so that they are better suited for a stand-alone checklist document.
-4. Adjustments to the criteria for clarity and consistency.
-5. Additional criteria not present in Appendix A of the original document.
+4. Some criteria were reworded for additional clarity and consistency.
+5. Some criteria were added that are not present in the original checklist.
 
 ## 1. Checklist
 
 Each criterion is a question regarding a specific aspect of software quality.
-Each question is answered with a single &check; next to a rating that best reflects the quality of the criterion in the software.
+Each question is answered with a single &check; in a single rating that best reflects the quality of the criterion in the software.
 
 The ratings are as follows:
 
@@ -38,30 +40,30 @@ A description can be provided for more information.
 | 1.1.3 | Is it clear how the software works?                             |           |            |            |             |            |             |
 | 1.1.4 | Is it clear what the motivation for developing the software is? |           |            |            |             |            |             |
 | 1.1.5 | Is it clear what problems are solved by the software?           |           |            |            |             |            |             |
-| 1.1.6 | Is is clear what development stage the software is at?          |           |            |            |             |            |             |
+| 1.1.6 | Is it clear what development stage the software is at?          |           |            |            |             |            |             |
 | 1.1.7 | Is it clear whether the software is actively supported?         |           |            |            |             |            |             |
 
 ### 1.2 Documentation
 
-| ID     | Criterion                                                               | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|-------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.2.1  | Is the software documented?                                             |           |            |            |             |            |             |
-| 1.2.2  | Is the documentation accessible?                                        |           |            |            |             |            |             |
-| 1.2.3  | Is the documentation clear?                                             |           |            |            |             |            |             |
-| 1.2.4  | Is the documentation complete?                                          |           |            |            |             |            |             |
-| 1.2.5  | Is the documentation accurate?                                          |           |            |            |             |            |             |
-| 1.2.6  | Does the documentation provide a high-level overview of the software?   |           |            |            |             |            |             |
-| 1.2.7  | Are all the necessary audiences addressed, at their appropriate levels? |           |            |            |             |            |             |
-| 1.2.8  | Does the documentation make use of adequate examples?                   |           |            |            |             |            |             |
-| 1.2.9  | Is there troubleshooting information?                                   |           |            |            |             |            |             |
-| 1.2.10 | Is the documentation available from the project website?                |           |            |            |             |            |             |
-| 1.2.11 | Is the documentation under version control?                             |           |            |            |             |            |             |
+| ID     | Criterion                                                                  | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|----------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.2.1  | Is the software documented?                                                |           |            |            |             |            |             |
+| 1.2.2  | Is the documentation accessible?                                           |           |            |            |             |            |             |
+| 1.2.3  | Is the documentation clear?                                                |           |            |            |             |            |             |
+| 1.2.4  | Is the documentation complete?                                             |           |            |            |             |            |             |
+| 1.2.5  | Is the documentation accurate?                                             |           |            |            |             |            |             |
+| 1.2.6  | Does the documentation provide a high-level overview of the software?      |           |            |            |             |            |             |
+| 1.2.7  | Are all of the necessary audiences addressed, at their appropriate levels? |           |            |            |             |            |             |
+| 1.2.8  | Does the documentation make use of adequate examples?                      |           |            |            |             |            |             |
+| 1.2.9  | Is there troubleshooting information?                                      |           |            |            |             |            |             |
+| 1.2.10 | Is the documentation available from the project website?                   |           |            |            |             |            |             |
+| 1.2.11 | Is the documentation under version control?                                |           |            |            |             |            |             |
 
 ### 1.3 Learnability
 
 | ID    | Criterion                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.3.1 | Is there a beginner's guide for getting started using the software?               |           |            |            |             |            |             |
+| 1.3.1 | Is there a guide for 'getting started' using the software?                        |           |            |            |             |            |             |
 | 1.3.2 | Are there instructions that are appropriate for novice users?                     |           |            |            |             |            |             |
 | 1.3.3 | Are there instructions that are appropriate for more advanced users?              |           |            |            |             |            |             |
 | 1.3.4 | Are there instructions for basic use cases?                                       |           |            |            |             |            |             |
@@ -74,7 +76,7 @@ A description can be provided for more information.
 | ID    | Criterion                                                        | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 1.4.1 | Are there good instructions for building/compiling the software? |           |            |            |             |            |             |
-| 1.4.2 | Is an established automated build system used?                   |           |            |            |             |            |             |
+| 1.4.2 | Is an established automated build system in use?                 |           |            |            |             |            |             |
 | 1.4.3 | Are the dependencies listed and available?                       |           |            |            |             |            |             |
 | 1.4.4 | Are there tests to verify that the build has succeeded?          |           |            |            |             |            |             |
 
@@ -84,13 +86,13 @@ A description can be provided for more information.
 |--------|-----------------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 1.5.1  | Are there easily accessible installation instructions?                                  |           |            |            |             |            |             |
 | 1.5.2  | Are the dependencies listed and available?                                              |           |            |            |             |            |             |
-| 1.5.3  | Are programming language’s best installation practices followed?                        |           |            |            |             |            |             |
-| 1.5.4  | Is the software packaged according to standards for the target platform?                |           |            |            |             |            |             |
+| 1.5.3  | Are programming language's best installation practices followed?                        |           |            |            |             |            |             |
+| 1.5.4  | Is the software packaged according to the standards of the target platform(s)?          |           |            |            |             |            |             |
 | 1.5.5  | Is the software package properly structured?                                            |           |            |            |             |            |             |
 | 1.5.6  | Is the software properly structured when installed?                                     |           |            |            |             |            |             |
 | 1.5.7  | Does the software include a README file?                                                |           |            |            |             |            |             |
 | 1.5.8  | Are there facilities to uninstall the software?                                         |           |            |            |             |            |             |
-| 1.5.9  | Are the system requirements such as target platform clearly advertised?                 |           |            |            |             |            |             |
+| 1.5.9  | Are the system requirements (e.g. target platform) clearly advertised?                  |           |            |            |             |            |             |
 | 1.5.10 | Is the software deployable through an established container or virtualisation solution? |           |            |            |             |            |             |
 
 ### 1.6 Performance
@@ -105,19 +107,21 @@ A description can be provided for more information.
 
 ### 1.7 Identity
 
-| ID    | Criterion                                                 | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|-----------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.7.1 | Does the software provide a clear and unique identity?    |           |            |            |             |            |             |
-| 1.7.2 | Does the software have a website?                         |           |            |            |             |            |             |
-| 1.7.3 | Does the project name not violate an existing trade-mark? |           |            |            |             |            |             |
+| ID    | Criterion                                                                       | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|-------|---------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.7.1 | Does the software have a clear and unique identity in its application domain?   |           |            |            |             |            |             |
+| 1.7.2 | Does the software have a website?                                               |           |            |            |             |            |             |
+| 1.7.3 | Does the project name not violate an existing trademark?                        |           |            |            |             |            |             |
 
 ### 1.8 Copyright & Licensing
 
-| ID    | Criterion                                                                            | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|--------------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.8.1 | Has an appropriate open-source license been adopted?                                 |           |            |            |             |            |             |
-| 1.8.2 | Is it clear who wrote the software, who owns the copyright, and what the license is? |           |            |            |             |            |             |
-| 1.8.3 | Are the funders acknowledged?                                                        |           |            |            |             |            |             |
+| ID    | Criterion                                            | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|-------|------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.8.1 | Has an appropriate open-source license been adopted? |           |            |            |             |            |             |
+| 1.8.2 | Is it clear who wrote the software?                  |           |            |            |             |            |             |
+| 1.8.3 | Is it clear who owns the copyright for the software? |           |            |            |             |            |             |
+| 1.8.4 | Is it clear what the license is for the software?    |           |            |            |             |            |             |
+| 1.8.5 | Are the funders acknowledged?                        |           |            |            |             |            |             |
 
 ### 1.9 Accessibility
 
@@ -128,7 +132,7 @@ A description can be provided for more information.
 | 1.9.3 | Are there any restricted data in the public source code repository?         |           |            |            |             |            |             |
 | 1.9.4 | Are there clearly marked formal releases of the software?                   |           |            |            |             |            |             |
 | 1.9.5 | Is the software deposited in a public repository for the language?          |           |            |            |             |            |             |
-| 1.9.6 | Is the software available in the target platform’s software repository?     |           |            |            |             |            |             |
+| 1.9.6 | Is the software available in the target platform's software repository?     |           |            |            |             |            |             |
 | 1.9.7 | Is each software release deposited in a persistent store with a unique DOI? |           |            |            |             |            |             |
 
 ### 1.10 Community
@@ -195,18 +199,18 @@ A description can be provided for more information.
 |--------|------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 1.16.1 | Does the software offer all the appropriate interfaces?                |           |            |            |             |            |             |
 | 1.16.2 | Is the software modular, can the software support multiple interfaces? |           |            |            |             |            |             |
-| 1.16.3 | Is the software’s source code set up in a modular fashion?             |           |            |            |             |            |             |
+| 1.16.3 | Is the software's source code set up in a modular fashion?             |           |            |            |             |            |             |
 
 ### 1.17 Security & Privacy
 
-| ID    | Criterion                                                             | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|-----------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.17. | Is the software free of obvious security flaws?                       |           |            |            |             |            |             |
-| 1.17. | Is user privacy secured effectively?                                  |           |            |            |             |            |             |
-| 1.17. | Is there an active security policy?                                   |           |            |            |             |            |             |
-| 1.17. | Is the codebase automatically scanned for errors and vulnerabilities? |           |            |            |             |            |             |
-| 1.17. | Is there a means of disclosing software bugs?                         |           |            |            |             |            |             |
-| 1.17. | Is there a private means of disclosing security vulnerabilities?      |           |            |            |             |            |             |
+| ID     | Criterion                                                                        | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.17.1 | Is the software free of obvious security flaws?                                  |           |            |            |             |            |             |
+| 1.17.2 | Is user privacy secured effectively?                                             |           |            |            |             |            |             |
+| 1.17.3 | Is there an active security policy?                                              |           |            |            |             |            |             |
+| 1.17.4 | Is the codebase automatically scanned for errors and vulnerabilities?            |           |            |            |             |            |             |
+| 1.17.5 | Are there any means of disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
+| 1.17.6 | Are there any means of privately disclosing security vulnerabilities?            |           |            |            |             |            |             |
 
 ### 1.18 Interoperability
 
