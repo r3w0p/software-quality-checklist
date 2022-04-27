@@ -1,6 +1,5 @@
 # Software Quality Checklist
 
-**Author**: [r3w0p](https://github.com/r3w0p)  
 **Version**: 1.0  
 **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)  
 **Source**: [GitHub](https://github.com/r3w0p/software-quality-checklist)  
