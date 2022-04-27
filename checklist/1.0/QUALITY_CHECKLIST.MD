@@ -18,7 +18,7 @@ The following changes were made to their checklist:
 ## 1. Checklist
 
 Each criterion is a question regarding a specific aspect of software quality.
-Each question is answered with a single &check; in a single rating that best reflects the quality of the criterion in the software.
+Each question is answered with a single &check; for the rating that best reflects the quality of the criterion in the software.
 
 The ratings are as follows:
 
