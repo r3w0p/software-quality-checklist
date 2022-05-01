@@ -1,6 +1,6 @@
 # Software Quality Checklist
 
-**Version**: 1.0  
+**Version**: 1.0.0  
 **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)  
 **Source**: [GitHub](https://github.com/r3w0p/software-quality-checklist)  
 
@@ -47,14 +47,14 @@ A description can be provided for more information.
 | ID     | Criterion                                                                  | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|----------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 1.2.1  | Is the software documented?                                                |           |            |            |             |            |             |
-| 1.2.2  | Is the documentation accessible?                                           |           |            |            |             |            |             |
-| 1.2.3  | Is the documentation clear?                                                |           |            |            |             |            |             |
-| 1.2.4  | Is the documentation complete?                                             |           |            |            |             |            |             |
-| 1.2.5  | Is the documentation accurate?                                             |           |            |            |             |            |             |
-| 1.2.6  | Does the documentation provide a high-level overview of the software?      |           |            |            |             |            |             |
-| 1.2.7  | Are all of the necessary audiences addressed, at their appropriate levels? |           |            |            |             |            |             |
-| 1.2.8  | Does the documentation make use of adequate examples?                      |           |            |            |             |            |             |
-| 1.2.9  | Is there troubleshooting information?                                      |           |            |            |             |            |             |
+| 1.2.2  | Is the documentation publicly accessible?                                  |           |            |            |             |            |             |
+| 1.2.3  | Is the documentation complete?                                             |           |            |            |             |            |             |
+| 1.2.4  | Is the documentation accurate?                                             |           |            |            |             |            |             |
+| 1.2.5  | Does the documentation provide a high-level overview of the software?      |           |            |            |             |            |             |
+| 1.2.6  | Are all of the necessary audiences addressed, at their appropriate levels? |           |            |            |             |            |             |
+| 1.2.7  | Does the documentation make use of adequate examples?                      |           |            |            |             |            |             |
+| 1.2.8  | Is there troubleshooting information?                                      |           |            |            |             |            |             |
+| 1.2.9  | Is the documentation searchable?                                           |           |            |            |             |            |             |
 | 1.2.10 | Is the documentation available from the project website?                   |           |            |            |             |            |             |
 | 1.2.11 | Is the documentation under version control?                                |           |            |            |             |            |             |
 
@@ -62,7 +62,7 @@ A description can be provided for more information.
 
 | ID    | Criterion                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.3.1 | Is there a guide for 'getting started' using the software?                        |           |            |            |             |            |             |
+| 1.3.1 | Is there a 'getting started' guide for using the software?                        |           |            |            |             |            |             |
 | 1.3.2 | Are there instructions that are appropriate for novice users?                     |           |            |            |             |            |             |
 | 1.3.3 | Are there instructions that are appropriate for more advanced users?              |           |            |            |             |            |             |
 | 1.3.4 | Are there instructions for basic use cases?                                       |           |            |            |             |            |             |
@@ -216,3 +216,10 @@ A description can be provided for more information.
 | ID     | Criterion                                                  | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 1.18.1 | Does the software use appropriate open standards for data? |           |            |            |             |            |             |
+
+
+### 1.19 Governance
+
+| ID     | Criterion                                                             | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|-----------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.19.1 | Is it clear to understand how development of the project is managed?  |           |            |            |             |            |             |
