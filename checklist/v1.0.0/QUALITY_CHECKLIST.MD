@@ -1,4 +1,4 @@
-__# Software Quality Checklist
+# Software Quality Checklist
 
 **Version**: 1.0.0  
 **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)  
