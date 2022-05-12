@@ -2,24 +2,12 @@
 
 **Version**: 1.0.0  
 **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode)  
-**Source**: [GitHub](https://github.com/r3w0p/software-quality-checklist)  
+**Source**: [r3w0p](https://github.com/r3w0p/software-quality-checklist)
 
-The software quality checklist in this document is adapted from the document 
-_Guidelines for Software Quality v1.1_ ([van Gompel et al., 2016](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/softwareguidelines.pdf)), 
-licensed under "Creative Commons BY-SA" (see [here](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/LICENSE)).
-
-The following changes were made to their checklist:
-1. The term "Perfect" was changed to "Exc" (as in, _Excellent_) because it seemed like a more appropriate descriptor.
-2. A "Description" column was added so that one can, for example, provide extra information as to why one chose a rating for a given criterion.
-3. The "ID" values were changed so that they are better suited for a stand-alone checklist document.
-4. Some criteria were reworded for additional clarity and consistency.
-5. Some criteria were added that are not present in the original checklist.
-
-## 1. Checklist
-
-Each criterion is a question regarding a specific aspect of software quality.
-Each question is answered with a single &check; for the rating that best reflects the quality of the criterion in the software.
-
+This document is a checklist that provides a software quality assessment.
+Each criterion in the checklist is a question regarding a specific aspect of software quality.
+Each question is answered with a single &check; for the rating that best reflects the quality of the criterion in the
+software.
 The ratings are as follows:
 
 0. No quality (or not applicable)
@@ -28,10 +16,12 @@ The ratings are as follows:
 3. Good quality
 4. Excellent quality
 
-A description can be provided for more information.
+A description may be provided for more information as to why a rating was chosen for a given criterion.
 
 ### Changes TODO
 - Rewrite 1.14 Reusability
+
+## 1. Checklist
 
 ### 1.1 Understandability
 
