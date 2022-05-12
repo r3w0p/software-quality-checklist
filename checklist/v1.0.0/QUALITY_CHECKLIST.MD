@@ -184,9 +184,9 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 
 | ID     | Criterion                                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|-------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.15.1 | Is the software free of obvious security flaws?                               |           |            |            |             |            |             |
+| 1.15.1 | Is the software free from obvious security flaws?                             |           |            |            |             |            |             |
 | 1.15.2 | Is user privacy secured effectively?                                          |           |            |            |             |            |             |
 | 1.15.3 | Is there an active security policy?                                           |           |            |            |             |            |             |
-| 1.15.4 | Is the codebase automatically scanned for errors and vulnerabilities?         |           |            |            |             |            |             |
+| 1.15.4 | Is the codebase automatically scanned for security vulnerabilities?           |           |            |            |             |            |             |
 | 1.15.5 | Is there a means of disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
 | 1.15.6 | Is there a means of privately disclosing issues (e.g. vulnerabilities)?       |           |            |            |             |            |             |
