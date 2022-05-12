@@ -6,11 +6,10 @@ included within a software release, to indicate the
 current state of software quality for the given release.
 
 The checklist is version controlled using the [Semantic Versioning](https://semver.org/) convention.
-Version 1.0.0, for example, can be found at the following directory:
+For example, version 1.0.0 can be found at:
 
 `checklist/v1.0.0/QUALITY_CHECKLIST.MD`
 
 Versions of the checklist that are currently under development can be found at branches named:
 
 `v<MAJOR>.<Minor>.<patch>`
-
