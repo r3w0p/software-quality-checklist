@@ -187,6 +187,6 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.15.1 | Is the software free from obvious security flaws?                             |           |            |            |             |            |             |
 | 1.15.2 | Is user privacy secured effectively?                                          |           |            |            |             |            |             |
 | 1.15.3 | Is there an active security policy?                                           |           |            |            |             |            |             |
-| 1.15.4 | Is the codebase automatically scanned for security vulnerabilities?           |           |            |            |             |            |             |
+| 1.15.4 | Is the source code automatically scanned for security vulnerabilities?        |           |            |            |             |            |             |
 | 1.15.5 | Is there a means of disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
 | 1.15.6 | Is there a means of privately disclosing issues (e.g. vulnerabilities)?       |           |            |            |             |            |             |
