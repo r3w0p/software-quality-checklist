@@ -31,9 +31,6 @@ The ratings are as follows:
 A description can be provided for more information.
 
 ### Changes TODO
-- Avoid open-source-centric concepts of quality e.g. "public".
-- Use "software" instead of "project".
-- Avoid "(if any)" because N/A is an option.
 - Rewrite 1.14 Reusability
 
 ### 1.1 Understandability
@@ -56,8 +53,8 @@ A description can be provided for more information.
 | 1.2.1  | Is the software documented?                                                                 |           |            |            |             |            |             |
 | 1.2.2  | Is the documentation complete?                                                              |           |            |            |             |            |             |
 | 1.2.3  | Is the documentation accurate?                                                              |           |            |            |             |            |             |
-| 1.2.4  | Is the documentation publicly accessible?                                                   |           |            |            |             |            |             |
-| 1.2.5  | Is the documentation searchable?                                                            |           |            |            |             |            |             |
+| 1.2.4  | Is the documentation available?                                                             |           |            |            |             |            |             |
+| 1.2.5  | Is the documentation internally searchable?                                                 |           |            |            |             |            |             |
 | 1.2.6  | Is the documentation under version control?                                                 |           |            |            |             |            |             |
 | 1.2.7  | Does the documentation provide instructions that are appropriate for the intended audience? |           |            |            |             |            |             |
 | 1.2.8  | Does the documentation provide instructions that are appropriate for novice users?          |           |            |            |             |            |             |
@@ -105,11 +102,11 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 
 ### 1.6 Identity
 
-| ID    | Criterion                                                                       | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|---------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.6.1 | Does the software have a clear and unique identity in its application domain?   |           |            |            |             |            |             |
-| 1.6.2 | Does the software have a website?                                               |           |            |            |             |            |             |
-| 1.6.3 | Is the project name unique such that it does not violate an existing trademark? |           |            |            |             |            |             |
+| ID    | Criterion                                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|-------|-------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.6.1 | Does the software have a clear and unique identity in its application domain? |           |            |            |             |            |             |
+| 1.6.2 | Does the software have a website?                                             |           |            |            |             |            |             |
+| 1.6.3 | Does the software's name avoid violation of an existing trademark?            |           |            |            |             |            |             |
 
 ### 1.7 Copyright & Licensing
 
@@ -119,42 +116,43 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.7.2 | Is it clear who owns the copyright for the software?             |           |            |            |             |            |             |
 | 1.7.3 | Is it clear what the license is for the software?                |           |            |            |             |            |             |
 | 1.7.4 | Is the software compliant with the licenses of its dependencies? |           |            |            |             |            |             |
-| 1.7.5 | Are the funders acknowledged?                                    |           |            |            |             |            |             |
+| 1.7.5 | Are the software funders acknowledged?                           |           |            |            |             |            |             |
 
 ### 1.8 Accessibility
 
 | ID    | Criterion                                                                   | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-----------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.8.1 | Is the source code maintained in a public version-controlled repository?    |           |            |            |             |            |             |
-| 1.8.2 | Are there any restricted data in the public source code repository?         |           |            |            |             |            |             |
+| 1.8.1 | Is the source code maintained in a version-controlled repository?           |           |            |            |             |            |             |
+| 1.8.2 | Are there any restricted data in the source code repository?                |           |            |            |             |            |             |
 | 1.8.3 | Are there clearly marked formal releases of the software?                   |           |            |            |             |            |             |
-| 1.8.4 | Is the software deposited in a public repository for the language?          |           |            |            |             |            |             |
-| 1.8.5 | Is the software available in the target platform's software repository?     |           |            |            |             |            |             |
+| 1.8.4 | Is the software deposited in a language repository (e.g. PyPI)?             |           |            |            |             |            |             |
+| 1.8.5 | Is the software deposited in a repository for the target platform(s)?       |           |            |            |             |            |             |
 | 1.8.6 | Is each software release deposited in a persistent store with a unique DOI? |           |            |            |             |            |             |
-| 1.8.7 | Does the software use appropriate open standards for data?                  |           |            |            |             |            |             |
+| 1.8.7 | Does the software use appropriate open standards for data representation?   |           |            |            |             |            |             |
+| 1.8.8 | Does the software use appropriate protocols for data transmission?          |           |            |            |             |            |             |
 
 ### 1.9 Community
 
-| ID    | Criterion                                                                    | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.9.1 | Is there evidence of the software being used by others?                      |           |            |            |             |            |             |
-| 1.9.2 | Is there evidence of external developers?                                    |           |            |            |             |            |             |
-| 1.9.3 | Is there a code of conduct for contributors to adhere to?                    |           |            |            |             |            |             |
-| 1.9.4 | Is the project open to contributions from third parties?                     |           |            |            |             |            |             |
-| 1.9.5 | Does the project have guidelines for contributions?                          |           |            |            |             |            |             |
-| 1.9.6 | Are all source code changes and their author contributions publicly visible? |           |            |            |             |            |             |
-| 1.9.7 | Is it clear to understand how development of the project is managed?         |           |            |            |             |            |             |
+| ID    | Criterion                                                 | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|-------|-----------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.9.1 | Is there evidence of the software being used by others?   |           |            |            |             |            |             |
+| 1.9.2 | Is there evidence of external developers?                 |           |            |            |             |            |             |
+| 1.9.3 | Is there a code of conduct for contributors to adhere to? |           |            |            |             |            |             |
+| 1.9.4 | Is the software open to contributions from third parties? |           |            |            |             |            |             |
+| 1.9.5 | Does the software have guidelines for contributions?      |           |            |            |             |            |             |
+| 1.9.6 | Are the contributions from all authors clearly visible?   |           |            |            |             |            |             |
+| 1.9.7 | Is it clear how development of the software is managed?   |           |            |            |             |            |             |
 
 ### 1.10 Testability
 
-| ID     | Criterion                                                                    | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.10.1 | Is the software tested using dynamic testing?                                |           |            |            |             |            |             |
-| 1.10.2 | Does dynamic testing provide sufficient coverage?                            |           |            |            |             |            |             |
-| 1.10.3 | Is the software tested using static testing?                                 |           |            |            |             |            |             |
-| 1.10.4 | Does static testing provide sufficient coverage?                             |           |            |            |             |            |             |
-| 1.10.5 | Are the testing approaches run automatically?                                |           |            |            |             |            |             |
-| 1.10.6 | Is the software tested against supported versions of its target platform(s)? |           |            |            |             |            |             |
+| ID     | Criterion                                                                        | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.10.1 | Is the software tested using dynamic testing?                                    |           |            |            |             |            |             |
+| 1.10.2 | Does the dynamic testing provide sufficient coverage?                            |           |            |            |             |            |             |
+| 1.10.3 | Is the software tested using static testing?                                     |           |            |            |             |            |             |
+| 1.10.4 | Does the static testing provide sufficient coverage?                             |           |            |            |             |            |             |
+| 1.10.5 | Are the testing approaches run automatically?                                    |           |            |            |             |            |             |
+| 1.10.6 | Is the software tested against all supported versions of its target platform(s)? |           |            |            |             |            |             |
 
 ### 1.11 Portability
 
@@ -166,10 +164,10 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 
 ### 1.12 Supportability
 
-| ID     | Criterion                                    | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|----------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.12.1 | Is it clear whom to contact for support?     |           |            |            |             |            |             |
-| 1.12.2 | Are there public support channels available? |           |            |            |             |            |             |
+| ID     | Criterion                                | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.12.1 | Are there support channels available?    |           |            |            |             |            |             |
+| 1.12.2 | Is it clear whom to contact for support? |           |            |            |             |            |             |
 
 ### 1.13 Analysability
 
@@ -181,7 +179,7 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.13.4 | Are there blocks of commented-out code or obsolete files?                         |           |            |            |             |            |             |
 | 1.13.5 | Are sensible names used in the source code?                                       |           |            |            |             |            |             |
 | 1.13.6 | Are all TODO comments resolved?                                                   |           |            |            |             |            |             |
-| 1.13.7 | Does the project have recommended coding standards?                               |           |            |            |             |            |             |
+| 1.13.7 | Are there recommended coding standards for developing the software?               |           |            |            |             |            |             |
 | 1.13.8 | Is the source code automatically analysed (e.g. for type checking, code quality)? |           |            |            |             |            |             |
 
 ### 1.14 Reusability
@@ -194,11 +192,11 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 
 ### 1.15 Security & Privacy
 
-| ID     | Criterion                                                                              | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|----------------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.15.1 | Is the software free of obvious security flaws?                                        |           |            |            |             |            |             |
-| 1.15.2 | Is user privacy secured effectively?                                                   |           |            |            |             |            |             |
-| 1.15.3 | Is there an active security policy?                                                    |           |            |            |             |            |             |
-| 1.15.4 | Is the codebase automatically scanned for errors and vulnerabilities?                  |           |            |            |             |            |             |
-| 1.15.5 | Is there a means of publicly disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
-| 1.15.6 | Is there a means of privately disclosing issues (e.g. vulnerabilities)?                |           |            |            |             |            |             |
+| ID     | Criterion                                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|-------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.15.1 | Is the software free of obvious security flaws?                               |           |            |            |             |            |             |
+| 1.15.2 | Is user privacy secured effectively?                                          |           |            |            |             |            |             |
+| 1.15.3 | Is there an active security policy?                                           |           |            |            |             |            |             |
+| 1.15.4 | Is the codebase automatically scanned for errors and vulnerabilities?         |           |            |            |             |            |             |
+| 1.15.5 | Is there a means of disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
+| 1.15.6 | Is there a means of privately disclosing issues (e.g. vulnerabilities)?       |           |            |            |             |            |             |
