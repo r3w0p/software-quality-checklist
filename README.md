@@ -8,7 +8,7 @@ The checklist is version controlled using the [Semantic Versioning](https://semv
 directories following this convention.
 For example, version 1.0.0 can be found at:
 
-`checklist/v1.0.0/QUALITY_CHECKLIST.MD`
+`checklist/v1.0.0/SOFTWARE_QUALITY.MD`
 
 ## Credits
 

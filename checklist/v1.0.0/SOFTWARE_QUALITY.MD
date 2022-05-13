@@ -18,9 +18,6 @@ The ratings are as follows:
 
 A description may be provided for more information as to why a rating was chosen for a given criterion.
 
-### Changes TODO
-- Rewrite 1.14 Reusability
-
 ## 1. Checklist
 
 ### 1.1 Understandability
@@ -54,19 +51,19 @@ A description may be provided for more information as to why a rating was chosen
 
 ### 1.3 Installability
 
-Installability applies to the installation, packaging, and deployment of software on the target platform, including
+Installability applies to the installation, packaging, and deployment of software on the target platform(s), including
 configuration of the software to the user’s needs.
 
 | ID    | Criterion                                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|---------------------------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.3.1 | Are the installation instructions easily accessible?                                              |           |            |            |             |            |             |
+| 1.3.1 | Are installation instructions available and up to date?                                           |           |            |            |             |            |             |
 | 1.3.2 | Are the installation dependencies listed, available, and up to date?                              |           |            |            |             |            |             |
 | 1.3.3 | Are the system requirements clearly listed (e.g. target platform)?                                |           |            |            |             |            |             |
 | 1.3.4 | Are the installation best practices followed for the programming language(s) used?                |           |            |            |             |            |             |
 | 1.3.5 | Is the software package properly structured according to the standards of the target platform(s)? |           |            |            |             |            |             |
 | 1.3.6 | Is the software properly structured when installed?                                               |           |            |            |             |            |             |
 | 1.3.7 | Are there facilities to uninstall the software?                                                   |           |            |            |             |            |             |
-| 1.3.8 | Is the software deployable through an established container or virtualisation solution?           |           |            |            |             |            |             |
+| 1.3.8 | Is the software deployable via a containerisation or virtualisation solution?                     |           |            |            |             |            |             |
 
 ### 1.4 Buildability
 
@@ -90,25 +87,20 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.5.4 | Does the software have a responsive interface?                     |           |            |            |             |            |             |
 | 1.5.5 | Does the software scale as intended?                               |           |            |            |             |            |             |
 
-### 1.6 Identity
+### 1.6 Legal
 
 | ID    | Criterion                                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.7.1 | Is it clear who wrote the software?                                           |           |            |            |             |            |             |
+| 1.7.2 | Is it clear who owns the copyright for the software?                          |           |            |            |             |            |             |
+| 1.7.3 | Is it clear what the license is for the software?                             |           |            |            |             |            |             |
+| 1.7.4 | Is the software compliant with the licenses of its dependencies?              |           |            |            |             |            |             |
+| 1.7.5 | Are the software funders acknowledged?                                        |           |            |            |             |            |             |
 | 1.6.1 | Does the software have a clear and unique identity in its application domain? |           |            |            |             |            |             |
 | 1.6.2 | Does the software have a website?                                             |           |            |            |             |            |             |
 | 1.6.3 | Does the software's name avoid violation of an existing trademark?            |           |            |            |             |            |             |
 
-### 1.7 Copyright & Licensing
-
-| ID    | Criterion                                                        | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-------|------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.7.1 | Is it clear who wrote the software?                              |           |            |            |             |            |             |
-| 1.7.2 | Is it clear who owns the copyright for the software?             |           |            |            |             |            |             |
-| 1.7.3 | Is it clear what the license is for the software?                |           |            |            |             |            |             |
-| 1.7.4 | Is the software compliant with the licenses of its dependencies? |           |            |            |             |            |             |
-| 1.7.5 | Are the software funders acknowledged?                           |           |            |            |             |            |             |
-
-### 1.8 Accessibility
+### 1.7 Accessibility
 
 | ID    | Criterion                                                                   | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-----------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -121,7 +113,7 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.8.7 | Does the software use appropriate open standards for data representation?   |           |            |            |             |            |             |
 | 1.8.8 | Does the software use appropriate protocols for data transmission?          |           |            |            |             |            |             |
 
-### 1.9 Community
+### 1.8 Community
 
 | ID    | Criterion                                                 | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|-----------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -132,8 +124,10 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.9.5 | Does the software have guidelines for contributions?      |           |            |            |             |            |             |
 | 1.9.6 | Are the contributions from all authors clearly visible?   |           |            |            |             |            |             |
 | 1.9.7 | Is it clear how development of the software is managed?   |           |            |            |             |            |             |
+| 1.9.1 | Are there support channels available?                     |           |            |            |             |            |             |
+| 1.9.2 | Is it clear whom to contact for support?                  |           |            |            |             |            |             |
 
-### 1.10 Testability
+### 1.9 Testability
 
 | ID     | Criterion                                                                        | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -144,22 +138,7 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.10.5 | Are the testing approaches run automatically?                                    |           |            |            |             |            |             |
 | 1.10.6 | Is the software tested against all supported versions of its target platform(s)? |           |            |            |             |            |             |
 
-### 1.11 Portability
-
-| ID     | Criterion                                                   | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|-------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.11.1 | Is it clear for which platforms the software is written?    |           |            |            |             |            |             |
-| 1.11.2 | Is the software portable for multiple platforms?            |           |            |            |             |            |             |
-| 1.11.3 | Is the software sufficiently backward compatible?           |           |            |            |             |            |             |
-
-### 1.12 Supportability
-
-| ID     | Criterion                                | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.12.1 | Are there support channels available?    |           |            |            |             |            |             |
-| 1.12.2 | Is it clear whom to contact for support? |           |            |            |             |            |             |
-
-### 1.13 Analysability
+### 1.10 Analysability
 
 | ID     | Criterion                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|-----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -172,15 +151,19 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.13.7 | Are there recommended coding standards for developing the software?               |           |            |            |             |            |             |
 | 1.13.8 | Is the source code automatically analysed (e.g. for type checking, code quality)? |           |            |            |             |            |             |
 
-### 1.14 Reusability
+### 1.11 Reusability
 
-| ID     | Criterion                                                              | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|--------|------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 1.14.1 | Does the software offer all the appropriate interfaces?                |           |            |            |             |            |             |
-| 1.14.2 | Is the software modular, can the software support multiple interfaces? |           |            |            |             |            |             |
-| 1.14.3 | Is the software's source code set up in a modular fashion?             |           |            |            |             |            |             |
+| ID     | Criterion                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|--------|-----------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 1.14.1 | Does the software provide an interface for external systems to integrate with it? |           |            |            |             |            |             |
+| 1.14.2 | Is the source code designed with modularity?                                      |           |            |            |             |            |             |
+| 1.14.3 | Does the source code use design patterns?                                         |           |            |            |             |            |             |
+| 1.11.1 | Does the source code use standard language features (e.g. libraries, data types)? |           |            |            |             |            |             |
+| 1.11.2 | Is the software portable for multiple platforms?                                  |           |            |            |             |            |             |
+| 1.11.3 | Is the software sufficiently backward compatible?                                 |           |            |            |             |            |             |
+| 1.11.3 | Is the software extensible and adaptable for future software requirements?        |           |            |            |             |            |             |
 
-### 1.15 Security & Privacy
+### 1.12 Security & Privacy
 
 | ID     | Criterion                                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |--------|-------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -190,3 +173,4 @@ byte code (e.g. C/C++, Java, Haskell), but not to scripting languages (e.g. Pyth
 | 1.15.4 | Is the source code automatically scanned for security vulnerabilities?        |           |            |            |             |            |             |
 | 1.15.5 | Is there a means of disclosing issues (e.g. software bugs, feature requests)? |           |            |            |             |            |             |
 | 1.15.6 | Is there a means of privately disclosing issues (e.g. vulnerabilities)?       |           |            |            |             |            |             |
+| 1.15.6 | Is the source code able to be peer reviewed?                                  |           |            |            |             |            |             |
