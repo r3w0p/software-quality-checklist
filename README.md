@@ -21,7 +21,7 @@ The software quality checklist is adapted from the document
 _Guidelines for Software Quality v1.1_ ([van Gompel et al., 2016](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/softwareguidelines.pdf)), 
 licensed under "Creative Commons BY-SA" (see [here](https://github.com/CLARIAH/software-quality-guidelines/blob/b842de9dbbe50f9d08c91105d8ac0c7b147c433f/LICENSE)).
 
-The following changes were made to their checklist:
+The following changes were made:
 1. The term "Perfect" was changed to "Exc" (as in, _Excellent_) because it seemed like a more appropriate descriptor.
 2. A "Description" column was added so that one can, for example, provide extra information as to why one chose a rating for a given criterion.
 3. The "ID" values were changed so that they are better suited for a stand-alone checklist document.
