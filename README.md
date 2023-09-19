@@ -10,6 +10,11 @@ For example, version 1.0.0 can be found at:
 
 `checklist/v1.0.0/SOFTWARE_QUALITY.MD`
 
+## License
+
+Every Software Quality Checklist version is licensed under the terms of the
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
 ## Credits
 
 The software quality checklist is adapted from the document 
