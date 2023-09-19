@@ -51,8 +51,6 @@ A description may be provided for more information as to why a rating was chosen
 
 ### 3. Installability
 
-Installability refers to the installation, packaging, and deployment of software on the target platform(s), including configuration of the software to the user's needs.
-
 | ID   | Criterion                                                                                         | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |------|---------------------------------------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
 | 3.1  | Are installation instructions available and up to date?                                           |           |            |            |             |            |             |
@@ -65,8 +63,6 @@ Installability refers to the installation, packaging, and deployment of software
 | 3.8  | Is the software deployable via a containerisation or virtualisation solution?                     |           |            |            |             |            |             |
 
 ### 4. Buildability
-
-Buildability applies to software that compiles to either native machine code or an intermediate byte code.
 
 | ID    | Criterion                                                     | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
 |-------|---------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
@@ -113,17 +109,17 @@ Buildability applies to software that compiles to either native machine code or 
 
 ### 8. Community
 
-| ID  | Criterion                                                 | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
-|-----|-----------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
-| 8.1 | Is there evidence of the software being used by others?   |           |            |            |             |            |             |
-| 8.2 | Is there evidence of external developers?                 |           |            |            |             |            |             |
-| 8.3 | Is there a code of conduct for contributors to adhere to? |           |            |            |             |            |             |
-| 8.4 | Is the software open to contributions from third parties? |           |            |            |             |            |             |
-| 8.5 | Does the software have guidelines for contributions?      |           |            |            |             |            |             |
-| 8.6 | Are the contributions from all authors clearly visible?   |           |            |            |             |            |             |
-| 8.7 | Is it clear how development of the software is managed?   |           |            |            |             |            |             |
-| 8.8 | Are there support channels available?                     |           |            |            |             |            |             |
-| 8.9 | Is it clear whom one should contact for support?          |           |            |            |             |            |             |
+| ID  | Criterion                                                            | *No*<br>0 | *Min*<br>1 | *Adq*<br>2 | *Good*<br>3 | *Exc*<br>4 | Description |
+|-----|----------------------------------------------------------------------|:---------:|:----------:|:----------:|:-----------:|:----------:|-------------|
+| 8.1 | Is there evidence of the software being used by others?              |           |            |            |             |            |             |
+| 8.2 | Is there evidence of external developers?                            |           |            |            |             |            |             |
+| 8.3 | Is there a code of conduct for contributors to adhere to?            |           |            |            |             |            |             |
+| 8.4 | Is the software open to contributions from third parties?            |           |            |            |             |            |             |
+| 8.5 | Does the software have guidelines for contributions?                 |           |            |            |             |            |             |
+| 8.6 | Are the contributions from all authors clearly visible?              |           |            |            |             |            |             |
+| 8.7 | Is it clear how development of the software is managed?              |           |            |            |             |            |             |
+| 8.8 | Is there a support channel available (e.g., for general discussion)? |           |            |            |             |            |             |
+| 8.9 | Is it clear how to find the support channel?                         |           |            |            |             |            |             |
 
 ### 9. Testability
 
