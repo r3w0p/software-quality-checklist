@@ -6,9 +6,9 @@ included within a software release, to indicate the current state of software qu
 
 The checklist is version controlled using the [Semantic Versioning](https://semver.org/) convention and are stored in
 directories following this convention.
-For example, version 1.0.0 can be found at:
+For example, version `1.0.0` can be found at:
 
-`checklist/v1.0.0/SOFTWARE_QUALITY.MD`
+`version/1.0.0/SOFTWARE_QUALITY.MD`
 
 ## License
 
